@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="./styles/style.css" type="text/css" rel="stylesheet"/>
+    <script src="./src/tictactoe.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Viikko 2</title>
+</head>
+<body>
+
+    <h1>Ristinolla</h1>
+    <h3><span id="turn-identifier">X</span>:n vuoro laittaa merkkinsä.</h3>
+
+    <div>
+        <table id="gametable">
+            <tr>
+                <td onclick="addMarker(this)"></td>
+                <td onclick="addMarker(this)"></td>
+                <td onclick="addMarker(this)"></td>
+            </tr>  
+            <tr>
+                <td onclick="addMarker(this)"></td>
+                <td onclick="addMarker(this)"></td>
+                <td onclick="addMarker(this)"></td>
+            </tr>
+            <tr>
+                <td onclick="addMarker(this)"></td>
+                <td onclick="addMarker(this)"></td>
+                <td onclick="addMarker(this)"></td>
+            </tr>
+        </table>
+        <div>
+            <button onclick="reload()">Uudestaan</button>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
